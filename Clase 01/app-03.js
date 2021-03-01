@@ -1,0 +1,14 @@
+console.log("inicio");
+
+setTimeout(() => {
+console.log("primer timeout");
+}, 5000);
+
+setTimeout(() => {
+console.log("segundo timeout");
+}, 0);
+
+setTimeout(() => {
+console.log("tercer timeout");
+}, 0);
+console.log("fin de programa");
